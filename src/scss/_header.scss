@@ -1,0 +1,63 @@
+.Header {
+	font-family: "Roboto", "Arial", sans-serif;
+	&-Banner {
+		background-color: #00A9CC;
+		height: 20px;
+		width: 100vw;
+	}
+	&-Mobile {
+		display: flex;
+		position: relative;
+		height: 100vh;
+		width: 100vw;
+		&-Burger {
+			fill: #da0751;
+			height: 50px;
+			width: 50px;
+			padding: 5vw;
+		}
+		&-Logo {
+			transform: scale(2);
+			padding-left: 18vw;
+			padding-top: 10px;
+		}
+		&-Menu {
+/* 			margin-top: -20px; mettre display none en js
+
+ */
+ 			display: none;
+ 			align-items: center;
+ 			z-index: 1;
+			position: absolute;
+			height: 100vh;
+			width: 100vw;
+			background-color: white;
+			overflow: hidden;
+			&-Close {
+				height: 50px;
+				width: 50px;
+				padding: 5vw;
+			}
+			&-Form {
+				padding: 4.25vw;
+				width: 80%;
+				display: flex;
+
+				&-Search {
+					height: 5.35vh;
+					width: 80%;
+					border-radius: 10px 0 0 10px;
+					font-size: 25px;
+				}
+				&-Submit {
+					height: 5.35vh;
+					border-radius: 0 10px 10px 0;
+					width: 20%;
+
+				}
+			}
+		}
+	}
+}
+
+//#da0751
