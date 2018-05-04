@@ -9,7 +9,7 @@ Simple front-end boilerplate and Javascript bundlers with <a href="https://githu
 Clone the repository
 
 ~~~
-A Changer !!!!!!!!!!!!!!!!!!!!
+git clone https://github.com/Quentin-Aime/tpRefonte1.git
 ~~~
 
 Install dependencies and run the start script (parcel)
