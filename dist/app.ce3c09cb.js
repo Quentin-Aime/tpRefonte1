@@ -148,7 +148,7 @@ module.exports = reloadCSS;
 'use strict';
 
 require('./src/scss/common.scss');
-},{"./src/scss/common.scss":4}],28:[function(require,module,exports) {
+},{"./src/scss/common.scss":4}],7:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -178,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '57262' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55352' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -317,5 +317,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[28,2])
+},{}]},{},[7,2])
 //# sourceMappingURL=/app.ce3c09cb.map
